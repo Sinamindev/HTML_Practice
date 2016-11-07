@@ -1,3 +1,4 @@
+<!--this is a comment-->
 <html>
 	<head>
 	<title>First Page</title> 
@@ -5,15 +6,23 @@
 	<body>
 	This is the body
 		<p>This is a paragraph</p>
-		
+		<!--Attributes can be used to align text-->
+		<!--Width and Heigh can be descibed by percentages(%) or pixels(px)-->
 		<p align="center">This text is aligned to center<br />
 			<hr width="50%" align="left"/> This is also text..
 		</p>
 
-		<p>Below is an image</p>
+		<p>Below is an image</p> <!--attributes like heigh and width can be used to adjust image sizes-->
+		<!--the attribute alt="" displays text in situations where the image itself can not be displayed. It usually desribes the image, since it's best to describe the picture rather than have no image at all-->
 		<img src="http://i.imgur.com/zkWAJNw.jpg" height="40%" width="70%" border="1px" alt=""/>
+		<!--A local image can be used as well. Just use the path to the image rather than the link, or just the name if the image is in the same folder as the html file-->
 
-		<img src="zkWAJNw.jpg" alt="This is the alternate attribute to describe the local image if it can not be displayed"/>
+		<br /> <!--break statement-->
+		
+		<!--<a> tags define links-->
+		<!--href attribute defines the link's destination address-->
+		<!--target="_blank" opens the link in a new tab-->
+		<a href="https://www.Google.com" target="_blank">This is a link to Google</a>
 	</body>
 	This is an html file
 </html>
