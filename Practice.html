@@ -3,8 +3,12 @@
 	<head>
 	<title>First Page</title> 
 	</head>
-	<body>
+	<body bgcolor="#DDDDDD"> <!--bgcolor changed the background-->
 	This is the body
+		<h1>
+		<font color="#00FF00"> Green headline</font>
+		</h1>
+
 		<p>This is a paragraph</p>
 		<!--Attributes can be used to align text-->
 		<!--Width and Heigh can be descibed by percentages(%) or pixels(px)-->
@@ -64,8 +68,11 @@
 		</table>
 
 		<form>
+			<!--using method="GET" makes the form data visable in the page address, while using method="POST" does not-->
+			<!--POST shoudl be used if data is being updated, such a sensitive information since it offeres better security-->
 			<input type="text" name="username" /><br />
 			<input type="password" name="password" /><br />
+			<input type="submit" value="Submit" /><br />
 			<!--using a checkbox type rather than radio allows the user to select more than one option-->
 			<input type="radio" name="gender" value="male" /> Male <br/>
 			<input type="radio" name="gender" value="female" /> Female <br />
